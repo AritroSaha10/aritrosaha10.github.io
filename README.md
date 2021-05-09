@@ -1,5 +1,7 @@
-# Simple Portfolio
-A simple portfolio with a header, about sections, works showcase, contact box, and a footer with social medias. Made by Aritro Saha 2021.
+# Portfolio
+My portfolio, which showcases my projects.
 
-## Tech
-- React (CSR)
+## Copyright
+© 2021 Aritro Saha. All rights reserved.
+
+Modification and redistribution of the source code is not allowed.
