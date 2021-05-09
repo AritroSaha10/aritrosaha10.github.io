@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f1db3c0.chunk.css",
-    "main.js": "/static/js/main.7681422a.chunk.js",
-    "main.js.map": "/static/js/main.7681422a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8b140959.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8b140959.js.map",
-    "static/js/2.556fe785.chunk.js": "/static/js/2.556fe785.chunk.js",
-    "static/js/2.556fe785.chunk.js.map": "/static/js/2.556fe785.chunk.js.map",
-    "static/js/3.94e97cec.chunk.js": "/static/js/3.94e97cec.chunk.js",
-    "static/js/3.94e97cec.chunk.js.map": "/static/js/3.94e97cec.chunk.js.map",
+    "main.css": "/static/css/main.241f0c2a.chunk.css",
+    "main.js": "/static/js/main.59a8c5be.chunk.js",
+    "main.js.map": "/static/js/main.59a8c5be.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b4a9b54f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b4a9b54f.js.map",
+    "static/js/2.f7fed9ef.chunk.js": "/static/js/2.f7fed9ef.chunk.js",
+    "static/js/2.f7fed9ef.chunk.js.map": "/static/js/2.f7fed9ef.chunk.js.map",
+    "static/js/3.7953565e.chunk.js": "/static/js/3.7953565e.chunk.js",
+    "static/js/3.7953565e.chunk.js.map": "/static/js/3.7953565e.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.5f1db3c0.chunk.css.map": "/static/css/main.5f1db3c0.chunk.css.map",
-    "static/js/2.556fe785.chunk.js.LICENSE.txt": "/static/js/2.556fe785.chunk.js.LICENSE.txt",
-    "static/media/MacbookAir_Upscaled_MyPuja.d336602e.png": "/static/media/MacbookAir_Upscaled_MyPuja.d336602e.png",
-    "static/media/TenantComplaintSystem_Preview.1494f523.png": "/static/media/TenantComplaintSystem_Preview.1494f523.png",
-    "static/media/WeRecycle_Phone_Preview.7d18a9c6.png": "/static/media/WeRecycle_Phone_Preview.7d18a9c6.png",
+    "static/css/main.241f0c2a.chunk.css.map": "/static/css/main.241f0c2a.chunk.css.map",
+    "static/js/2.f7fed9ef.chunk.js.LICENSE.txt": "/static/js/2.f7fed9ef.chunk.js.LICENSE.txt",
+    "static/media/MyPuja_Laptop.5e57faef.png": "/static/media/MyPuja_Laptop.5e57faef.png",
+    "static/media/TenantComplaintSystem_Desktop.1fd6deb7.png": "/static/media/TenantComplaintSystem_Desktop.1fd6deb7.png",
+    "static/media/WeRecycle_Phone_Preview_Cropped.e3d36013.png": "/static/media/WeRecycle_Phone_Preview_Cropped.e3d36013.png",
     "static/media/pfp.d809b4a8.png": "/static/media/pfp.d809b4a8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8b140959.js",
-    "static/js/2.556fe785.chunk.js",
-    "static/css/main.5f1db3c0.chunk.css",
-    "static/js/main.7681422a.chunk.js"
+    "static/js/runtime-main.b4a9b54f.js",
+    "static/js/2.f7fed9ef.chunk.js",
+    "static/css/main.241f0c2a.chunk.css",
+    "static/js/main.59a8c5be.chunk.js"
   ]
 }
