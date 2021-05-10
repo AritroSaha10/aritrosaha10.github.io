@@ -5,7 +5,7 @@ header {
     justify-content: space-between;
     padding-left: 3rem;
     padding-right: 2rem;
-    height: 54px;
+    height: var(--header-height);
     background-color: white;
     position: sticky;
     top: 0;
@@ -17,6 +17,11 @@ header {
     font-size: x-large;
     font-weight: 700;
     font-family: "Roboto Mono";
+}
+
+.logo a {
+    text-decoration: none;
+    color: inherit;
 }
 
 nav.items {

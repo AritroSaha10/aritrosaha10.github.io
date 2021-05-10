@@ -1,38 +1,44 @@
 import React from 'react';
+import { HashLink } from 'react-router-hash-link';
 
 import "../styles/header.css";
 
 const links = [
     {
-        name: "About",
-        link: "#about"
+        name: "Projects",
+        link: "/#home",
     },
     {
-        name: "Projects",
-        link: "#projects"
+        name: "About",
+        link: "/about"
     },
     /*
     {
         name: "Blog",
-        link: "#"
+        link: "#",
+        homeSection: false
     },
     */
     {
         name: "Contact",
-        link: "#contact"
+        link: "/#contact"
     }
 ];
 
 function Header() {
     return (
         <header>
-            <div className="logo">A.S</div>
+            <div className="logo">
+                <HashLink smooth to={links[0].link}>
+                    A.S
+                </HashLink>
+            </div>
             <nav className="items">
                 {links.map(({ name, link }) => (
                     <p key={name}>
-                        <a href={link}>
+                        <HashLink smooth to={link}>
                             {name}
-                        </a>
+                        </HashLink>
                     </p>
                 ))}
             </nav>

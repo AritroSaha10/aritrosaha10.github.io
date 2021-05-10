@@ -17,4 +17,11 @@ h2 {
   font-size: x-large;
   font-weight: 600;
   word-wrap: break-word;
+  margin: 0;
+}
+
+.mainContent {
+  flex: 1 0 auto;
+  margin-top: auto;
+  min-height: calc(100vh - var(--header-height) - var(--footer-height));
 }

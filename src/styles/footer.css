@@ -8,6 +8,8 @@ footer {
     bottom: 0;
     width: 100%;
     box-shadow: 0 3px 5px var(--shadow-color);
+    flex-shrink: 0;
+    height: var(--footer-height);
 }
 
 footer span.separator {

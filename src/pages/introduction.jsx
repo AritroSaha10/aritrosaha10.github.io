@@ -2,14 +2,14 @@ import React from 'react';
 import profilePicture from "../images/pfp.png";
 
 import "../styles/animations.css";
-import "../styles/about.css";
+import "../styles/introduction.css";
 
 function Home() {
     return (
-        <section className="home" id="about">
+        <section className="home" id="home">
             <div className="content">
                 <div className="title">
-                    <h1 className="animate fadeInLeft one">Hi, I'm Aritro Saha. </h1>
+                    <h1 className="animate fadeInLeft one">Hi, I'm Aritro. </h1>
                     <h2 className="animate fadeInLeft two">
                         I'm a high school student and a self-taught
                         software developer in Toronto, Ontario.

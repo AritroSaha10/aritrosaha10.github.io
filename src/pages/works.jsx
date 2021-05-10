@@ -124,9 +124,12 @@ function FadeCardOnScroll(props) {
     useEffect(() => {
         const observer = new IntersectionObserver(entries => {
             entries.forEach(entry => {
-                // Make sure the class is not taken off, to make sure it only fades in
-                if (!domRef.current.classList.contains("is-visible")) {
-                    setCardVisisble(entry.isIntersecting);
+                // Can sometimes be null (??)
+                if (domRef.current !== null) {
+                    // Make sure the class is not taken off, to make sure it only fades in
+                    if (!domRef.current.classList.contains("is-visible")) {
+                        setCardVisisble(entry.isIntersecting);
+                    }
                 }
             });
         });
