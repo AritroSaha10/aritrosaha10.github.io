@@ -23,5 +23,5 @@ h2 {
 .mainContent {
   flex: 1 0 auto;
   margin-top: auto;
-  min-height: calc(100vh - var(--header-height) - var(--footer-height));
+  min-height: calc(100vh - var(--footer-height));
 }

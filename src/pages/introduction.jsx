@@ -6,7 +6,7 @@ import "../styles/introduction.css";
 
 function Home() {
     return (
-        <section className="home" id="home">
+        <section className="home">
             <div className="content">
                 <div className="title">
                     <h1 className="animate fadeInLeft one">Hi, I'm Aritro. </h1>
