@@ -98,7 +98,7 @@ function FeaturedWorks() {
                             <img src={image} alt={`${name} Preview`} />
                         </div>
 
-                        <div className={`content animate fadeIn${i % 2 ? "Left" : "Right"}`}>
+                        <div className={`content`}>
                             <h1>{name}</h1>
                             <h2>{tagline}</h2>
                             <p>{description}</p>
