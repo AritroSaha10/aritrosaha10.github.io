@@ -78,6 +78,7 @@ const projects = [
     }
 ]
 
+/*
 const bgColors = [
     "var(--bg-blue)",
     // "var(--bg-light-blue)",
@@ -85,6 +86,14 @@ const bgColors = [
     "var(--bg-teal)",
     "var(--bg-green)",
     // "var(--bg-light-green)"
+]
+*/
+
+const bgColors = [
+    "#b0bec5",
+    "#eeeeee",
+    "#cfd8dc",
+    "#f5f5f5"
 ]
 
 function FeaturedWorks() {

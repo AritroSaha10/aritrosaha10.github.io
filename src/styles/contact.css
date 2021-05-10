@@ -17,8 +17,8 @@ textarea::-webkit-scrollbar-thumb {
   justify-content: flex-start;
   align-items: center;
   height: auto;
-  padding: 0vh 4vw 6vh 4vw;
-  background-color: var(--bg-light-green);
+  padding: 3vh 4vw 6vh 4vw;
+  background-color: #cfd8dc;
 }
 
 .contact .title h2 {

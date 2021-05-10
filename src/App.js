@@ -1,6 +1,7 @@
 import './App.css';
 
 // Pages
+import TopHeader from "./pages/topHeader";
 import Home from "./pages/introduction";
 import FeaturedWorks from "./pages/featuredWorks";
 import Works from "./pages/works";
@@ -22,11 +23,11 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Header />
-
         <div className="mainContent">
           <Switch>
             <Route path="/" exact>
+              <TopHeader />
+              <Header />
               <Home />
 
               <section id="projects">
@@ -36,10 +37,12 @@ function App() {
 
               <Contact />
             </Route>
-            
+
             <Route path="/about" exact>
+              <Header />
               <AboutMe />
             </Route>
+
           </Switch>
         </div>
 

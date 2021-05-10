@@ -41,7 +41,7 @@
 
 .featuredWorks .projectSlides .slide .preview > img {
     height: intrinsic;
-    max-width: 35vw;
+    max-width: 40vw;
 }
 
 .featuredWorks .projectSlides .slide .content {
