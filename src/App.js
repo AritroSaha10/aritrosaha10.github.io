@@ -7,6 +7,7 @@ import FeaturedWorks from "./pages/featuredWorks";
 import Works from "./pages/works";
 import Contact from "./pages/contact";
 import AboutMe from "./pages/aboutMe";
+import Page404 from "./pages/Page404";
 
 // Components
 import Header from "./components/header";
@@ -41,6 +42,11 @@ function App() {
             <Route path="/about" exact>
               <Header />
               <AboutMe />
+            </Route>
+
+            <Route path="*">
+              <Header />
+              <Page404 />
             </Route>
 
           </Switch>
