@@ -8,10 +8,12 @@ const links = [
         name: "Projects",
         link: "/#home",
     },
+    /*
     {
         name: "About",
         link: "/about"
     },
+    */
     /*
     {
         name: "Blog",

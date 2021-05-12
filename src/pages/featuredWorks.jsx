@@ -42,7 +42,7 @@ const projects = [
     {
         name: "Distributed Data Labelling Platform",
         linkName: "ddlp",
-        description: "A web app utilizing React and Firebase to allow for simple, collabarative, and distributed labelling of datasets primarily meant for Machine Learning algorithms to quickly label a large amount of data without paying an outside source, with the ability for self-hosting.",
+        description: "A web app utilizing React and Firebase to allow for simple, collabarative, and distributed labelling of datasets, with the ability for self-hosting.",
         projectRedirects: [
             {
                 siteName: "GitHub",

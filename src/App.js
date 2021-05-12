@@ -6,7 +6,7 @@ import Home from "./pages/introduction";
 import FeaturedWorks from "./pages/featuredWorks";
 import Works from "./pages/works";
 import Contact from "./pages/contact";
-import AboutMe from "./pages/aboutMe";
+// import AboutMe from "./pages/aboutMe";
 import Page404 from "./pages/Page404";
 
 // Components
@@ -39,10 +39,14 @@ function App() {
               <Contact />
             </Route>
 
+            {
+            /*
             <Route path="/about" exact>
               <Header />
               <AboutMe />
             </Route>
+            */
+            } 
 
             <Route path="*">
               <Header />
