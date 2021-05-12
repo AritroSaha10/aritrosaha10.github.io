@@ -8,6 +8,7 @@ import "../styles/featuredWorks.css";
 import myPujaThumbnail from "../images/projectThumbnails/MyPuja_Laptop.png";
 import weRecyclePhone from "../images/projectThumbnails/WeRecycle_Phone_Preview_Cropped.png";
 import tcsThumbnail from "../images/projectThumbnails/TenantComplaintSystem_Desktop.png";
+import ddlpThumbnail from "../images/projectThumbnails/DataLabelling_IntelliHelm_Preview_2.png";
 
 // Icons
 import { InlineIcon } from '@iconify/react';
@@ -37,6 +38,30 @@ const projects = [
         image: myPujaThumbnail,
         year: "2020/2021",
         tagline: "Quick Access to Temples Online"
+    },
+    {
+        name: "Distributed Dataset Labelling Platform (DDLP)",
+        linkName: "ddlp",
+        description: "A web app utlizing React and Firebase to allow for simple, collabarative, and distributed labelling of datasets primarily meant for Machine Learning algorithms to quickly label a large amount of data without paying an outside source, with the ability for self-hosting.",
+        projectRedirects: [
+            {
+                siteName: "GitHub",
+                url: "https://github.com/AritroSaha10/distributed_labelling",
+                icon: <InlineIcon className="icon" icon={githubIcon} />,
+                color: "#1976d2"
+            },
+            /* TODO: Add demo
+            {
+                siteName: "Website",
+                url: "https://my-puja-production.web.app",
+                icon: <InlineIcon className="icon" icon={baselineWeb} />,
+                color: "#673ab7"
+            },
+            */
+        ],
+        image: ddlpThumbnail,
+        year: "2021",
+        tagline: "Simple and Fast Data Labelling"
     },
     {
         name: "Tenant Complaint System",
@@ -92,8 +117,6 @@ const bgColors = [
 const bgColors = [
     "#b0bec5",
     "#eeeeee",
-    "#cfd8dc",
-    "#f5f5f5"
 ]
 
 function FeaturedWorks() {

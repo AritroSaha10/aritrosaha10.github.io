@@ -32,6 +32,20 @@ const cards = [
         year: "2020/2021"
     },
     {
+        name: "Distributed Dataset Labelling Platform (DDLP)",
+        description: "A web app utlizing React and Firebase to allow for simple, collabarative, and distributed labelling of datasets primarily meant for Machine Learning algorithms to quickly label a large amount of data without paying an outside source, with the ability for self-hosting.",
+        projectRedirects: [
+            {
+                siteName: "GitHub",
+                url: "https://github.com/AritroSaha10/distributed_labelling",
+                icon: <InlineIcon className="icon" icon={githubIcon} />,
+                color: "#1976d2"
+            },
+        ],
+        image: null,
+        year: "2021"
+    },
+    {
         name: "Tenant Complaint System",
         description: "A website using JQuery and Firebase that allows for the filing and management of complaints from tenants.",
         projectRedirects: [
@@ -106,6 +120,34 @@ const cards = [
             {
                 siteName: "GitHub",
                 url: "https://github.com/AritroSaha10/MMALCamera",
+                icon: <InlineIcon className="icon" icon={githubIcon} />,
+                color: "#1976d2"
+            },
+        ],
+        image: null,
+        year: "2021"
+    },
+    {
+        name: "VEX Robotics Advanced Clawbot",
+        description: "A codebase for a robot using VEX Robotics APIs that would utilize odometry, control systems (P.I.D.), state machines, and more as a resource for future robots that would compete in VEX VRC competitions.",
+        projectRedirects: [
+            {
+                siteName: "GitHub",
+                url: "https://github.com/AritroSaha10/vex-v5-practice",
+                icon: <InlineIcon className="icon" icon={githubIcon} />,
+                color: "#1976d2"
+            },
+        ],
+        image: null,
+        year: "2021"
+    },
+    {
+        name: "VEX V5 Continuous Integration Plugin (GitHub)",
+        description: "A Continuous Integration (C.I.) plugin that allows for automated testing of a codebase utilizing the VEX PROS for V5 APIs.",
+        projectRedirects: [
+            {
+                siteName: "GitHub",
+                url: "https://github.com/AritroSaha10/vex-build",
                 icon: <InlineIcon className="icon" icon={githubIcon} />,
                 color: "#1976d2"
             },
