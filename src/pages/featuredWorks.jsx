@@ -5,10 +5,10 @@ import "../styles/animations.css";
 import "../styles/featuredWorks.css";
 
 // Images
-import myPujaThumbnail from "../images/projectThumbnails/MyPuja_Laptop.png";
-import weRecyclePhone from "../images/projectThumbnails/WeRecycle_Phone_Preview_Cropped.png";
-import tcsThumbnail from "../images/projectThumbnails/TenantComplaintSystem_Desktop.png";
-import ddlpThumbnail from "../images/projectThumbnails/DataLabelling_IntelliHelm_Preview_2.png";
+import myPujaThumbnail from "../images/projectThumbnails/MyPuja_Laptop.webp";
+import weRecyclePhone from "../images/projectThumbnails/WeRecycle_Phone_Preview_Cropped.webp";
+import tcsThumbnail from "../images/projectThumbnails/TenantComplaintSystem_Desktop.webp";
+import ddlpThumbnail from "../images/projectThumbnails/DataLabelling_IntelliHelm_Preview_2.webp";
 
 // Icons
 import { InlineIcon } from '@iconify/react';
