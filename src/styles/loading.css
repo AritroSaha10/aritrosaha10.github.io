@@ -1,0 +1,8 @@
+.loading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh 3vw;
+    width: 100%;
+}

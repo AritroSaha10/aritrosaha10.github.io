@@ -1,13 +1,5 @@
+import React, { lazy, Suspense } from "react";
 import './App.css';
-
-// Pages
-import TopHeader from "./pages/topHeader";
-import Home from "./pages/introduction";
-import FeaturedWorks from "./pages/featuredWorks";
-import Works from "./pages/works";
-import Contact from "./pages/contact";
-// import AboutMe from "./pages/aboutMe";
-import Page404 from "./pages/Page404";
 
 // Components
 import Header from "./components/header";
@@ -20,6 +12,17 @@ import {
   Route
 } from "react-router-dom";
 
+// Pages
+import Loading from "./pages/Loading";
+
+// Pages with lazy loading
+const TopHeader = lazy(() => import("./pages/topHeader"));
+const Home = lazy(() => import("./pages/introduction"));
+const FeaturedWorks = React.lazy(() => import("./pages/featuredWorks"));
+const Works = React.lazy(() => import("./pages/works"));
+const Contact = React.lazy(() => import("./pages/contact"));
+const Page404 = React.lazy(() => import("./pages/Page404"));
+
 function App() {
   return (
     <div className="App">
@@ -27,30 +30,34 @@ function App() {
         <div className="mainContent">
           <Switch>
             <Route path="/" exact>
-              <TopHeader />
-              <Header />
-              <Home />
+              <Suspense fallback={<Loading />}>
+                <TopHeader />
+                <Header />
+                <Home />
 
-              <section id="projects">
-                <FeaturedWorks />
-                <Works />
-              </section>
+                <section id="projects">
+                  <FeaturedWorks />
+                  <Works />
+                </section>
 
-              <Contact />
+                <Contact />
+              </Suspense>
             </Route>
 
             {
-            /*
-            <Route path="/about" exact>
-              <Header />
-              <AboutMe />
-            </Route>
-            */
-            } 
+              /*
+              <Route path="/about" exact>
+                <Header />
+                <AboutMe />
+              </Route>
+              */
+            }
 
             <Route path="*">
-              <Header />
-              <Page404 />
+              <Suspense fallback={<h2>Loading...</h2>}>
+                <Header />
+                <Page404 />
+              </Suspense>
             </Route>
 
           </Switch>
