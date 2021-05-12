@@ -32,8 +32,8 @@ const cards = [
         year: "2020/2021"
     },
     {
-        name: "Distributed Dataset Labelling Platform (DDLP)",
-        description: "A web app utlizing React and Firebase to allow for simple, collabarative, and distributed labelling of datasets primarily meant for Machine Learning algorithms to quickly label a large amount of data without paying an outside source, with the ability for self-hosting.",
+        name: "Distributed Data Labelling Platform",
+        description: "A web app utilizing React and Firebase to allow for simple, collabarative, and distributed labelling of datasets primarily meant for Machine Learning algorithms to quickly label a large amount of data without paying an outside source, with the ability for self-hosting.",
         projectRedirects: [
             {
                 siteName: "GitHub",
