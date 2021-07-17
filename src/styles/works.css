@@ -31,6 +31,7 @@ h1 {
     transition: 0.25s;
     display: flex;
     flex-direction: column;
+    backface-visibility: hidden;
 }
 
 .works .cards .card>p {
