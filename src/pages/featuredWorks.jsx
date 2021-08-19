@@ -9,14 +9,37 @@ import myPujaThumbnail from "../images/projectThumbnails/MyPuja_Laptop.webp";
 import weRecyclePhone from "../images/projectThumbnails/WeRecycle_Phone_Preview_Cropped.webp";
 import tcsThumbnail from "../images/projectThumbnails/TenantComplaintSystem_Desktop.webp";
 import ddlpThumbnail from "../images/projectThumbnails/DataLabelling_IntelliHelm_Preview_2.webp";
+import bsdThumbnail from "../images/projectThumbnails/BSD_Video_Demo.webp";
 
 // Icons
 import { InlineIcon } from '@iconify/react';
 import githubIcon from '@iconify-icons/mdi/github';
 import baselineWeb from '@iconify-icons/ic/baseline-web';
 import bxlPlayStore from '@iconify-icons/bx/bxl-play-store';
+import youtubeIcon from '@iconify-icons/mdi/youtube';
 
 const projects = [
+    {
+        name: "Vehicle Blind-Spot Monitoring using Machine Learning",
+        description: "A lightweight camera-based solution for monitoring a car's blind spot programmatically using TensorFlow and Python on a Raspberry Pi that serves as a cheap alternative to using RADAR or ultrasonic sensors. Using transfer learning on MobileNetV2, an accuracy of ~98% was reached for blind spot detection with blazing fast prediction times.",
+        projectRedirects: [
+            {
+                siteName: "GitHub",
+                url: "https://github.com/AritroSaha10/BlindSpotDetection",
+                icon: <InlineIcon className="icon" icon={githubIcon} />,
+                color: "#1976d2"
+            },
+            {
+                siteName: "YouTube Demo",
+                url: "https://youtu.be/gVqHdGIRrTY",
+                icon: <InlineIcon className="icon" icon={youtubeIcon} />,
+                color: "#d32f2f"
+            }
+        ],
+        image: bsdThumbnail,
+        year: "2021",
+        tagline: "Lightweight, Accurate, and Camera-Based"
+    },
     {
         name: "My Puja",
         linkName: "MyPuja",

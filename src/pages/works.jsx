@@ -5,12 +5,33 @@ import { InlineIcon } from '@iconify/react';
 import githubIcon from '@iconify-icons/mdi/github';
 import baselineWeb from '@iconify-icons/ic/baseline-web';
 import bxlPlayStore from '@iconify-icons/bx/bxl-play-store';
+import youtubeIcon from '@iconify-icons/mdi/youtube';
 
 // CSS
 import "../styles/animations.css";
 import "../styles/works.css";
 
 const cards = [
+    {
+        name: "Blind-Spot Monitoring using Machine Learning",
+        description: "A lightweight camera-based solution for monitoring a car's blind spot programmatically using TensorFlow and Python on a Raspberry Pi that serves as a cheap alternative to using RADAR or ultrasonic sensors. Using transfer learning on MobileNetV2, an accuracy of ~98% was reached for blind spot detection with blazing fast prediction times.",
+        projectRedirects: [
+            {
+                siteName: "GitHub",
+                url: "https://github.com/AritroSaha10/BlindSpotDetection",
+                icon: <InlineIcon className="icon" icon={githubIcon} />,
+                color: "#1976d2"
+            },
+            {
+                siteName: "YouTube Demo",
+                url: "https://youtu.be/gVqHdGIRrTY",
+                icon: <InlineIcon className="icon" icon={youtubeIcon} />,
+                color: "#d32f2f"
+            }
+        ],
+        image: null,
+        year: "2021"
+    },
     {
         name: "My Puja",
         description: "A full stack web app using React and Firebase with an organized directory of events / pujas and livestreams directed toward Hindu temple-goers, specifically patrons of the Toronto Kalibari temple.",
@@ -128,12 +149,12 @@ const cards = [
         year: "2021"
     },
     {
-        name: "VEX Robotics Advanced Clawbot",
-        description: "A codebase for a robot using VEX Robotics APIs that would utilize odometry, control systems (P.I.D.), state machines, and more as a resource for future robots that would compete in VEX VRC competitions.",
+        name: "VEX Robotics Bootstrapped Project",
+        description: "A VEX Robotics codebase that serves as a base project with elements commonly required per each season. These include control systems, self-documentation, and more.",
         projectRedirects: [
             {
                 siteName: "GitHub",
-                url: "https://github.com/AritroSaha10/vex-v5-practice",
+                url: "https://github.com/AritroSaha10/bootstrapped-vex-v5",
                 icon: <InlineIcon className="icon" icon={githubIcon} />,
                 color: "#1976d2"
             },

@@ -6,19 +6,41 @@
 
 .aboutMe .content {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 3vw;
+}
+
+.aboutMe .content .introduction {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 3vh 3vw;
 }
 
-.aboutMe .content .self-photo {
-    padding: 0 3vw;
+
+.aboutMe .content .ecs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3vh 3vw;
 }
 
-.aboutMe .content .self-photo>img {
-    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+.aboutMe .content .introduction .self-photo {
+    align-self: center;
+    border-radius: 50%;
+    box-shadow: 6px 6px 5px 3px var(--shadow-color);
+    margin: 0 3vw;
+}
+
+.aboutMe .content .introduction .self-photo>img {
+    clip-path: circle(50% at 50% 50%);
+    object-fit: cover;
     width: 20rem;
     height: 20rem;
+    border-radius: 1vw;
+    margin: -5px; /* For the drop shadow */
 }
 
 @media (max-width: 640px) {

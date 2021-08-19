@@ -5,15 +5,13 @@ import "../styles/header.css";
 
 const links = [
     {
-        name: "Projects",
-        link: "/#home",
-    },
-    /*
-    {
         name: "About",
-        link: "/about"
+        link: "/#home"
     },
-    */
+    {
+        name: "Projects",
+        link: "/#projects",
+    },
     /*
     {
         name: "Blog",

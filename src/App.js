@@ -22,6 +22,7 @@ const FeaturedWorks = React.lazy(() => import("./pages/featuredWorks"));
 const Works = React.lazy(() => import("./pages/works"));
 const Contact = React.lazy(() => import("./pages/contact"));
 const Page404 = React.lazy(() => import("./pages/Page404"));
+// const AboutMe = React.lazy(() => import("./pages/aboutMe"));
 
 function App() {
   return (
@@ -44,14 +45,14 @@ function App() {
               </Suspense>
             </Route>
 
-            {
-              /*
-              <Route path="/about" exact>
-                <Header />
-                <AboutMe />
-              </Route>
-              */
-            }
+            {/*
+            <Route path="/about" exact>
+              <Suspense fallback={<h2>Loading...</h2>}>
+                  <Header />
+                  <AboutMe />
+                </Suspense>
+            </Route>
+            */}
 
             <Route path="*">
               <Suspense fallback={<h2>Loading...</h2>}>
