@@ -10,6 +10,7 @@ import weRecyclePhone from "../images/projectThumbnails/WeRecycle_Phone_Preview_
 import tcsThumbnail from "../images/projectThumbnails/TenantComplaintSystem_Desktop.webp";
 import ddlpThumbnail from "../images/projectThumbnails/DataLabelling_IntelliHelm_Preview_2.webp";
 import bsdThumbnail from "../images/projectThumbnails/BSD_Video_Demo.webp";
+import aiacThumbnail from "../images/projectThumbnails/AIAC_Preview.webp";
 
 // Icons
 import { InlineIcon } from '@iconify/react';
@@ -19,6 +20,21 @@ import bxlPlayStore from '@iconify-icons/bx/bxl-play-store';
 import youtubeIcon from '@iconify-icons/mdi/youtube';
 
 const projects = [
+    {
+        name: "Anglo-Indian Association of Canada",
+        description: "A modern, sleek, and new website for the Anglo-Indian Association of Canada utilizing the Jamstack (Next.js, Netlify CMS, Vercel). It has quick load times, while also including a variety of major features, from a event management system to an e-commerce trading platform.",
+        projectRedirects: [
+            {
+                siteName: "Website",
+                url: "https://www.a-iac.org",
+                icon: <InlineIcon className="icon" icon={baselineWeb} />,
+                color: "#673ab7"
+            },
+        ],
+        image: aiacThumbnail,
+        year: "2021",
+        tagline: "Modern, Sleek, and Quick"
+    },
     {
         name: "Vehicle Blind-Spot Monitoring using Machine Learning",
         description: "A lightweight camera-based solution for monitoring a car's blind spot programmatically using TensorFlow and Python on a Raspberry Pi that serves as a cheap alternative to using RADAR or ultrasonic sensors. Using transfer learning on MobileNetV2, an accuracy of ~98% was reached for blind spot detection with blazing fast prediction times.",

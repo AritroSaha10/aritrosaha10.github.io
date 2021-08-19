@@ -13,6 +13,20 @@ import "../styles/works.css";
 
 const cards = [
     {
+        name: "Website for the Anglo-Indian Association of Canada",
+        description: "A modern, sleek, and new website for the Anglo-Indian Association of Canada utilizing the Jamstack (Next.js, Netlify CMS, Vercel). It has quick load times, while also including a variety of major features, from a event management system to an e-commerce trading platform.",
+        projectRedirects: [
+            {
+                siteName: "Website",
+                url: "https://www.a-iac.org",
+                icon: <InlineIcon className="icon" icon={baselineWeb} />,
+                color: "#673ab7"
+            },
+        ],
+        image: null,
+        year: "2021"
+    },
+    {
         name: "Blind-Spot Monitoring using Machine Learning",
         description: "A lightweight camera-based solution for monitoring a car's blind spot programmatically using TensorFlow and Python on a Raspberry Pi that serves as a cheap alternative to using RADAR or ultrasonic sensors. Using transfer learning on MobileNetV2, an accuracy of ~98% was reached for blind spot detection with blazing fast prediction times.",
         projectRedirects: [
