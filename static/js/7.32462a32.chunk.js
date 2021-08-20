@@ -1,2 +1,0 @@
-(this.webpackJsonpapp=this.webpackJsonpapp||[]).push([[7],{41:function(e,t,s){},46:function(e,t,s){},55:function(e,t,s){"use strict";s.r(t);s(0),s(41),s(46);var n=s(1);t.default=function(){return Object(n.jsx)("div",{className:"topHeader",id:"home",children:Object(n.jsxs)("div",{className:"content",children:[Object(n.jsx)("h1",{children:"Aritro Saha"}),Object(n.jsx)("h2",{className:"animate fadeInLeft one",children:"A high school student striving to design and build software that makes life easier."})]})})}}}]);
-//# sourceMappingURL=7.32462a32.chunk.js.map
