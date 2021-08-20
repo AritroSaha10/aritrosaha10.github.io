@@ -22,6 +22,11 @@ const links = [
     {
         name: "Contact",
         link: "/#contact"
+    },
+    {
+        name: "Resume",
+        link: "/resume.pdf",
+        external: true
     }
 ];
 
@@ -34,15 +39,24 @@ function Header() {
                 </HashLink>
             </div>
             <nav className="items">
-                {links.map(({ name, link }) => (
+                {links.map(({ name, link, external }) => (
                     <p key={name}>
-                        <HashLink smooth to={link}>
-                            {name}
-                        </HashLink>
+                        {external ?
+                            (
+                                <a href={link}>
+                                    {name}
+                                </a>
+                            ) :
+                            (
+                                <HashLink smooth to={link}>
+                                    {name}
+                                </HashLink>
+                            )
+                        }
                     </p>
                 ))}
             </nav>
-        </header>
+        </header >
     );
 }
 

@@ -6,6 +6,7 @@ import instagramIcon from '@iconify-icons/mdi/instagram';
 import githubIcon from '@iconify-icons/mdi/github';
 import emailIcon from '@iconify-icons/mdi/email';
 import stackoverflowIcon from '@iconify-icons/cib/stackoverflow';
+import documentIcon from '@iconify/icons-fluent/document-16-filled';
 
 import "../styles/footer.css";
 
@@ -29,6 +30,11 @@ const links = [
         name: "Email",
         image: emailIcon,
         link: "mailto:aritro.saha729@gmail.com"
+    },
+    {
+        name: "Resume",
+        image: documentIcon,
+        link: "/resume.pdf"
     }
 ];
 
