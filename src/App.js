@@ -27,6 +27,9 @@ const Page404 = React.lazy(() => import("./pages/Page404"));
 function App() {
   return (
     <div className="App">
+      <div className="newPortfolioAd">
+        <p>Check out my new portfolio here: <a href="https://aritrosaha.vercel.app">aritrosaha.vercel.app</a></p>
+      </div>
       <Router>
         <div className="mainContent">
           <Switch>

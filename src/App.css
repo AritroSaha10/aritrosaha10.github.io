@@ -25,3 +25,23 @@ h2 {
   margin-top: auto;
   min-height: calc(100vh - var(--footer-height));
 }
+
+.newPortfolioAd {
+  padding: 0.5rem 1.5rem;
+  background-color: #343a42;
+  position: fixed;
+  width: 100vw;
+  z-index: 100;
+  box-shadow: 0 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.newPortfolioAd > p {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.newPortfolioAd > p > a {
+  color: #66adff;
+  text-decoration: none;
+}
